@@ -20,9 +20,6 @@ public class LoginPage {
 	private By Logout=By.linkText("Logout");
 	
 	
-	
-	
-	
 	public LoginPage(WebDriver driver)
 	{
 		this.driver=driver;
