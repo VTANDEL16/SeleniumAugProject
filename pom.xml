@@ -125,13 +125,7 @@
 						<arg>
 							-J--add-opens=jdk.compiler/com.sun.tools.javac.jvm=ALL-UNNAMED</arg>
 					</compilerArgs>
-					<annotationProcessorPaths>
-						<path>
-							<groupId>org.projectlombok</groupId>
-							<artifactId>lombok</artifactId>
-							<version>1.18.16</version>
-						</path>
-					</annotationProcessorPaths>
+					
 				</configuration>
 
 
