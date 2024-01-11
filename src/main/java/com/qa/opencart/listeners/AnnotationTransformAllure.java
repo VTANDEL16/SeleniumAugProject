@@ -10,7 +10,7 @@ public class AnnotationTransformAllure  implements IAnnotationTransformer
 
 {
 
-	@Override
+@Override
 	public void transform(ITestAnnotation annotation, 
 			Class testClass, 
 			Constructor testConstructor, 
