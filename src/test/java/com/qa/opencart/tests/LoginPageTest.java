@@ -48,7 +48,7 @@ public class LoginPageTest  extends BaseTest{
 		Assert.assertTrue(flag);
 	}
 	
-	@Description("login page forgotpassword link...")
+	@Description("login page forgotpassword link test...")
 	@Severity(SeverityLevel.MINOR)
 	@Test(priority=4)
 	public void ForgotPasswordLinkTest()
