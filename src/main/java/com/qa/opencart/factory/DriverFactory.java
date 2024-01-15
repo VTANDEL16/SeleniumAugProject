@@ -29,7 +29,7 @@ public class DriverFactory {
 	{
 		// optionManager=new OptionsManager(prop);;
 		String browserName = prop.getProperty("browser");    //if you want to supply browser from property file
-		// String browserName =System.getProperty("browser");    //if  you want to supply browser from maven or terminal
+		//String browserName =System.getProperty("browser");    //if  you want to supply browser from maven or terminal
 		System.out.println("browser is " + browserName);
 		switch (browserName.toLowerCase().trim()) {
 		case "chrome":
